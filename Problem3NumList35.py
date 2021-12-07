@@ -8,7 +8,10 @@ L = []
 while sum(L) < 100:
     n = int(input('Please Choose a number:'))
     L.append(n)
-counter = 0
+print(L)
+'''
+No use of the following codes 
+counter = 0 
 tens = []
 while counter <= 50:
     if counter % 10 == 0:
@@ -16,4 +19,4 @@ while counter <= 50:
     counter = counter + 1
 
 print(tens)
-
+'''
